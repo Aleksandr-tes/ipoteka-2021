@@ -1,0 +1,946 @@
+
+@font-face {
+	font-family: "Intro";
+	src: url("../font/intro-regular/intro-regular.eot"); /* IE9 Compat Modes */
+	src: url("../font/intro-regular/intro-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../font/intro-regular/intro-regular.otf") format("opentype"), /* Open Type Font */
+		url("../font/intro-regular/intro-regular.svg") format("svg"), /* Legacy iOS */
+		url("../font/intro-regular/intro-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../font/intro-regular/intro-regular.woff") format("woff"), /* Modern Browsers */
+		url("../font/intro-regular/intro-regular.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'PF DinDisplay Pro';
+    src: local('../font/PF-DinDisplay-Pro/PF Din Display Pro Thin'), local('../font/PF-DinDisplay-Pro/PF-Din-Display-Pro-Thin'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Thin.woff2') format('woff2'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Thin.woff') format('woff'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'PF DinDisplay Pro';
+    src: local('../font/PF-DinDisplay-Pro/PF Din Display Pro Light'), local('../font/PF-DinDisplay-Pro/PF-Din-Display-Pro-Light'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Light.woff2') format('woff2'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Light.woff') format('woff'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PF DinDisplay Pro';
+    src: local('../font/PF-DinDisplay-Pro/PF Din Display Pro Regular'), local('../font/PF-DinDisplay-Pro/PF-Din-Display-Pro-Regular'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Regular.woff2') format('woff2'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Regular.woff') format('woff'),
+        url('../font/PF-DinDisplay-Pro/PFDinDisplayPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    margin: 0 !important;
+}
+.body-tes { 
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Montserrat', sans-serif;
+
+  
+}  
+
+.body-tes h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.body-tes ul, li {
+    padding: 0;
+    margin: 0;
+	list-style: none;
+}
+
+
+.body-tes img {
+  max-width: 100%;
+  display: block;
+}
+
+.body-tes a {
+    text-decoration: none;
+}
+
+
+.containers {
+    max-width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-lg {
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* ////// */
+
+/* ========= +++++ глобальные классы +++++ ======== */
+.h2-repeat {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+.h2-repeat span {
+    color: #96A5BD;
+}
+.hr-repeat {
+    width: 190px;
+    height: 10px;
+    background: #FFD200;
+    border: none;
+    margin: 36px 0 0 0;
+}
+.hr-repeat-white {
+    width: 190px;
+    height: 10px;
+    background: #FFffff;
+    border: none;
+    margin-top: 36px;
+    margin: 36px auto 0;
+}
+
+
+/* ========= +++++ глобальные классы / +++++ ======== */
+
+
+
+
+
+.header {
+    background: url(../img/header/bacground-top-1.jpg) 50% 0  / cover no-repeat;
+    height: 610px;
+    text-align: center;
+    padding-top: 145px;
+
+}
+.header-crumbs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 69px;
+}
+.header-crumbs li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.header-crumbs li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F4F4F;
+}
+.header-crumbs li a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    display: inline-block;
+    font-family: 'Intro';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.2px;
+    color: #000000;
+    padding: 29px 73px 28px 74px;
+    background: #FFD200;
+    margin: 69px 0 0;
+}
+
+.header h2 {
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    padding: 20px 41px 21px;
+    background: #ffffff;
+    max-width: 851px;
+    margin: 0 auto;
+}
+.header-grup-btn {
+    margin-top: 53px;
+}
+.header-btn {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;  
+    text-align: center;
+    text-transform: uppercase;   
+    color: #000000;
+    padding: 17px 37px 14px;
+    margin: 0 21px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 31.8449px;
+}
+.header-btn-active {
+    background: #FFD300;
+}
+
+/* ========== header / ========== */
+
+/* ========== cart ========== */
+
+.cartt {
+    padding-top: 140px;
+}
+.cartt-containers {
+    margin-bottom: 126px;
+}
+.cartt-wrap {
+    display: flex;  
+    font-family: 'Montserrat';
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 41px;
+}
+.cartt-wrap__text {
+    padding: 0 56px;
+}
+.cartt-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #424548;
+    margin: 37px 0 13px !important;
+}
+.cartt-text-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #424548;
+    margin-bottom: 40px;
+}
+.cartt__block {
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+}
+/* .cartt__block-item {
+    min-width: 179px;
+} */
+.cartt__block-item h3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A9A9A9;
+    margin-bottom: 9px;
+}
+.cartt__block-item h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #424548;
+    margin-bottom: 47px;
+}
+.cartt__grup {
+    display: flex;
+    margin-bottom: 40px;
+}
+.cartt-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-right: 32px;
+    background: #FFFFFF;
+    border: 1px solid #A3A3A3;
+    box-sizing: border-box;
+    border-radius: 31.8449px;
+    width: 237px;
+    height: 51px;
+}
+.cartt-btn-active {
+    background: #FFD300;
+    border: #FFD300;
+}
+
+/* ========== cart / ========== */
+
+/* ========== calc ========== */
+
+/* .calc {
+    background: #EFF1F1;
+    padding: 43px 0 50px;
+}
+.calc-form {
+    display: flex;
+    margin-top: 64px;
+    position: relative;
+}
+.calc-form-left {
+    padding-bottom: 24px;
+}
+.calc-left-top {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    margin-bottom: 33px;
+}
+.calc-form-left h3 {
+    font-family: 'PF DinDisplay Pro';
+    width: 160px;
+    margin-right: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.btn-grup-calc-top {
+    display: flex;
+    margin-right: 55px;
+}
+.btn-calc-top {
+    font-family: 'PF DinDisplay Pro';
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    width: 132px;
+    height: 37px;
+    border: 1px solid #D9DADA;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-right: 21px;
+    
+}
+.btn-calc-top-active {
+    background: #FFD200;
+    border: 1px solid #FFD200;
+    box-sizing: border-box;
+}
+.calc-left-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    
+}
+.calc-left-input input::placeholder {
+    font-family: 'PF DinDisplay Pro';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+.calc-left-input input {
+    width: 98px;
+    height: 47px;
+    margin-right: 21px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #D9DADA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.calc-left-input span {
+    font-family: 'PF DinDisplay Pro';
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.calc-form-right {
+    border-left: 1px solid #D5D5D5;
+    padding: 7px 26px 10px;
+}
+.calc-form-right-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.calc-right-grup {
+    display: flex;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 22px;
+}
+.calc-right-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PF DinDisplay Pro';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #C1C1C1;
+    background: #E4E4E4;
+    width: 46px;
+    height: 31px;
+
+}
+.calc-right-btn-active {
+    background: #FECC00;
+    color: #000000;
+}
+.calc-right-text-h3 {
+    font-family: 'PF DinDisplay Pro';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 21px;
+}
+.calc-right-text-h4 {
+    font-family: 'PF DinDisplay Pro';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.calc-right-grup-par {
+    display: flex;
+}
+.calc-btn-par {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PF DinDisplay Pro';
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #D9DADA;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 21px;
+    width: 132px;
+    height: 37px;
+}
+.calc-btn-par-active {
+    background: #FFD200;
+    border: 1px solid #FFD200;
+}
+
+.calc-end-btn {
+    width: 122px;
+    height: 38px;
+    background: #FFD200;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'PF DinDisplay Pro';
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+} */
+
+
+/* ========== calc / ========== */
+
+/* ========== bid ========== */
+.bid {
+    padding: 120px 0 90px;
+}
+.bid-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 68px;
+}
+.bid-grup-input {   
+    width: 276px;
+    height: 83px;
+    position: relative;
+}
+.bid-input {
+    width: 276px;
+    height: 83px;
+    border: 1px solid #BABABA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: 0;
+    text-align: center;
+    font-family: 'PF DinDisplay Pro';
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;   
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #000000;
+}
+.bid-input::placeholder {
+    font-family: 'PF DinDisplay Pro';
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;   
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #000000;
+}
+.bid-label {
+    font-family: 'PF DinDisplay Pro';
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    /*width: 100%;
+    */font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #898989;
+    pointer-events: none;
+    padding: 0 8px;
+    background: #ffffff;
+    transform: translate( -50%, 0%);
+    -webkit-transform: translate( -50%, 0%);
+    -moz-transform: translate( -50%, 0%);
+    -ms-transform: translate( -50%, 0%);
+    -o-transform: translate( -50%, 0%);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.bid-sabmit-btn {
+    display: block;
+    margin: 60px auto 0;
+    padding: 16px 37px;
+    background: #FFD300;
+    border-radius: 31.8449px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    min-width: 200px;
+    cursor: pointer;
+}
+.bid-input:focus ~ .bid-label,
+.bid-input:not(:placeholder-shown) ~ .bid-label {
+  transform: translateY(-42px) translateX(-50%) scale(0.95);
+  -webkit-transform: translateY(-42px) translateX(-50%) scale(0.95);
+  -moz-transform: translateY(-42px) translateX(-50%) scale(0.95);
+  -ms-transform: translateY(-42px) translateX(-50%) scale(0.95);
+  -o-transform: translateY(-42px) translateX(-50%) scale(0.95);
+}
+/* =================================== */
+/* Это для браузера Chrome: убрать стрелочки у импут валио */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Это для браузера Firefox: убрать стрелочки у импут валио */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+/* Для других браузеров: убрать стрелочки у импут валио */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* ========== bid / ========== */
+
+/* ============== questions ========== */
+
+
+ .questions {
+    background: #FFD300;
+    padding: 50px 0 50px;
+ }
+ 
+ .questions h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    /* padding: 200px 0 0px; */
+    margin-top: 0 !important;
+ 
+ }
+ .questions-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 90px;
+ }
+ .questions-block__item {
+    padding: 0px;
+    width: 160px;
+    margin-bottom: 25px;
+ }
+ .questions-block__item-img {
+    width: 118px;
+    margin: 22px auto;
+ }
+ .questions-block__item-img img {
+    max-width: 100%;
+ }
+ .questions-block__item-text {
+    text-align: center;
+ }
+ .questions-block__item-text p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+ }
+ .questions-block__item-text a {
+    font-family: 'Roboto';
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin: 24px 0 0 0;
+    background: #FFF6CC;
+    background: #FFD300;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 8px 22px;
+    text-decoration: none;
+    transition: 0.6s all;
+ }
+ .questions-block__item-text a:hover {
+    color: #000000;
+    background: #FFF6CC;
+    border: 1px solid #FFF6CC;
+    text-decoration: none;
+ }
+
+ /* ***************************** */
+ .calculator {
+    background: #EFF1F1;
+    height: 598px;
+    padding-top: 43px;
+ }
+ /* ====== ===== 2 страница  ======== ======= */
+ .header-2 {
+     background: url(../img/header-2/bg-2f.jpg) 50% 0 / cover no-repeat;
+     height: 445px;
+     padding-top: 145px;
+ }
+.h1-str2 {
+    padding: 0;
+    background: none;
+    margin: 81px 0 9px;
+}   
+.header-2 h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 70px;
+    max-width: 445px;
+}
+.header-btn-2 {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;  
+    text-align: center;
+    text-transform: uppercase;   
+    color: #000000;
+    padding: 17px 37px 14px;
+    margin: 0 20px 0 0;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 31.8449px;
+}
+.header-btn-active-2 {
+    background: #FFD300;
+}
+.header-btn-2m {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+    background: none;
+    text-transform: uppercase;
+    color: #1F4877;
+    text-decoration: underline !important;
+    padding: 17px 37px 14px;
+    margin: 0 20px 0 0;
+    font-weight: 400;
+}
+/* ================ benefits ===================== */
+.benefits {
+    padding-top: 110px;
+}
+.benefits-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 21px;
+    margin: 78px 0 130px;
+}
+.benefits-block__item {
+    padding: 39px 25px 25px;
+    width: 279px;
+    min-height: 317px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.benefits-block__item img {
+    margin: 0 auto;
+}
+.benefits-block__item h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #424548;
+    margin: 34px 0 13px;
+}
+.benefits-block__item p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;  
+    color: #424548;
+    margin: 0;
+    
+}
+/* ================ benefits / ===================== */
+/* ================ arrange ===================== */
+.arrange {
+    padding: 85px 0 75px;
+    background: #EFF1F1;
+}
+.arrange-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 70px;
+}
+.arrange-block__item {
+    font-family: 'Montserrat';
+    border: 1px solid #CFCFCF;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 21px;
+    max-width: 386px;
+    min-height: 204px;
+}
+.arrange-block__item h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;   
+    color: #000000;
+    background: #FFD200;
+    width: 93px;
+    height: 35px;
+}
+.arrange-block__item h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #424548;
+    margin-top: 15px;
+}
+.arrange-block__item p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 9px 0 0;
+}
+ /* ====== ===== 2 страница  / ======== ======= */
+
+ /* ====== =====  страница о программе  ======== ======= */
+
+
+
+ /* ====== =====  страница о программе / ======== ======= */
+.header-program {
+    background: url(../img/header/header-program.jpg) 50% 0 / cover no-repeat;
+    height: 445px;
+    padding-top: 145px;
+}
+.header-title-h1 {
+    font-family: 'Intro' ;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.2px;
+    color: #000000;
+    padding: 0;
+    background: none;
+    margin: 62px 0 14px;
+}
+
+.header-podtitle-h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000; 
+    max-width: 552px;   
+    margin-bottom: 64px !important;
+}
+
+.header-yellow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 138px;
+    background: linear-gradient(0deg, #FFD200, #FFD200), linear-gradient(64.64deg, #FFC700 7.24%, #FFE600 96.72%);
+}
+.header-yellow h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;   
+    text-align: center;
+    color: #000000;
+}
+/* =============== conditionss =============== */
+.conditionss {
+    padding: 144px 0 122px;
+}
+.conditionss-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px 63px;
+    margin-top: 78px;
+}
+.conditionss-block__item {
+    font-family: 'Montserrat';
+    display: flex;
+    min-height: 137px;
+    width: 558px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+.conditionss__item-image {
+    display: flex;
+    align-items: center;
+    margin: 0 45px 0 47px;
+}
+.conditionss__item-text h3 {
+    margin: 15px 0 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #424548;
+}
+.conditionss__item-text p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424548;
+}
+/* =============== conditionss  / =============== */
+
+/* =============== othersm  =============== */
+.othersm {
+    padding: 80px 0 120px;
+}
+.othersm-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin-top: 98px;
+}
+.othersm-block__item {
+    width: 274px; 
+    text-align: center;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.othersm-block__item h3 {
+    margin: 22px 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #424548;
+}
+.othersm-block__item a {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    min-width: 170px;
+    padding: 9px 23px 13px;
+    background: #FFD300;
+    border-radius: 31.8449px;
+    margin-bottom: 25px;
+}
+
+/* =============== othersm  / =============== */
+
+/* ====== Медиа 1140px ====== */
+@media (max-width: 1140px) {
+
+}
+/* ====== Медиа 1140px /====== */
