@@ -475,6 +475,7 @@ h1 {
 }
 .bid-block {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
     margin-top: 68px;
