@@ -88,7 +88,7 @@ body {
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 45px;
-    line-height: 55px;
+    line-height: 122%;
     color: #000000;
 }
 .h2-repeat span {
@@ -138,7 +138,7 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 120%;
     color: #4F4F4F;
 }
 .header-crumbs li a:hover {
@@ -151,7 +151,7 @@ h1 {
     font-family: 'Intro';
     font-weight: 400;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 100%;
     letter-spacing: -0.2px;
     color: #000000;
     padding: 29px 73px 28px 74px;
@@ -164,7 +164,7 @@ h1 {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 28px;
-    line-height: 34px;
+    line-height: 120%;
     text-align: center;
     color: #000000;
     padding: 20px 41px 21px;
@@ -180,7 +180,7 @@ h1 {
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 18px;
-    line-height: 21px;  
+    line-height: 117%;  
     text-align: center;
     text-transform: uppercase;   
     color: #000000;
@@ -217,7 +217,7 @@ h1 {
 .cartt-title {
     font-weight: 600;
     font-size: 28px;
-    line-height: 34px;
+    line-height: 120%;
     text-transform: uppercase;
     color: #424548;
     margin: 37px 0 13px !important;
@@ -225,7 +225,7 @@ h1 {
 .cartt-text-p {
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 120%;
     color: #424548;
     margin-bottom: 40px;
 }
@@ -240,14 +240,14 @@ h1 {
 .cartt__block-item h3 {
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 125%;
     color: #A9A9A9;
     margin-bottom: 9px;
 }
 .cartt__block-item h4 {
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 120%;
     color: #424548;
     margin-bottom: 47px;
 }
@@ -262,7 +262,7 @@ h1 {
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 120%;
     text-align: center;
     color: #000000;
     margin-right: 32px;
@@ -496,7 +496,7 @@ h1 {
     font-family: 'PF DinDisplay Pro';
     font-weight: normal;
     font-size: 25px;
-    line-height: 30px;   
+    line-height: 120%;   
     text-align: center;
     letter-spacing: -0.2px;
     color: #000000;
@@ -505,7 +505,7 @@ h1 {
     font-family: 'PF DinDisplay Pro';
     font-weight: normal;
     font-size: 25px;
-    line-height: 30px;   
+    line-height: 120%;   
     text-align: center;
     letter-spacing: -0.2px;
     color: #000000;
@@ -518,7 +518,7 @@ h1 {
     /*width: 100%;
     */font-weight: 300;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     text-align: center;
     letter-spacing: -0.2px;
     color: #898989;
@@ -547,7 +547,7 @@ h1 {
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 120%;
     text-align: center;
     text-transform: uppercase;
     color: #000000;
@@ -597,7 +597,7 @@ input[type=number]::-webkit-outer-spin-button {
  .questions h2 {
     font-weight: 700;
     font-size: 45px;
-    line-height: 53px;
+    line-height: 120%;
     text-align: center;
     text-transform: uppercase;
     /* padding: 200px 0 0px; */
@@ -635,7 +635,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 120%;
     text-align: center;
     color: #000000;
  }
@@ -644,7 +644,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: inline-block;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 120%;
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
@@ -686,7 +686,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    line-height: 34px;
+    line-height: 120%;
     color: #000000;
     margin-bottom: 70px;
     max-width: 445px;
@@ -696,7 +696,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 18px;
-    line-height: 21px;  
+    line-height: 120%;  
     text-align: center;
     text-transform: uppercase;   
     color: #000000;
@@ -711,7 +711,7 @@ input[type=number]::-webkit-outer-spin-button {
 .header-btn-2m {
     font-family: 'Roboto';
     font-size: 18px;
-    line-height: 21px;
+    line-height: 120%;
     background: none;
     text-transform: uppercase;
     color: #1F4877;
@@ -748,7 +748,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     text-align: center;
     color: #424548;
     margin: 34px 0 13px;
@@ -758,7 +758,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 120%;
     text-align: center;  
     color: #424548;
     margin: 0;
@@ -792,7 +792,7 @@ input[type=number]::-webkit-outer-spin-button {
     align-items: center;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;   
+    line-height: 120%;   
     color: #000000;
     background: #FFD200;
     width: 93px;
@@ -801,7 +801,7 @@ input[type=number]::-webkit-outer-spin-button {
 .arrange-block__item h4 {
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 120%;
     color: #424548;
     margin-top: 15px;
 }
@@ -854,7 +854,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     color: #000000; 
     max-width: 634px;   
     margin-bottom: 64px !important;
@@ -871,7 +871,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 40px;
-    line-height: 49px;   
+    line-height: 120%;   
     text-align: center;
     color: #000000;
 }
@@ -902,13 +902,13 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0 45px 0 47px;
 }
 .conditionss__item-text h3 {
-    margin: 15px 0 0;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     color: #424548;
 }
 .conditionss__item-text p {
+    margin: 12px 0 0;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
@@ -939,7 +939,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     text-align: center;
     color: #424548;
 }
@@ -948,7 +948,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 120%;
     text-align: center;
     color: #000000;
     min-width: 170px;
