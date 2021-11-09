@@ -616,9 +616,15 @@ input[type=number]::-webkit-outer-spin-button {
     margin-bottom: 25px;
  }
  .questions-block__item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 118px;
+    height: 118px;
     margin: 22px auto;
- }
+    background: #fff;
+    border-radius: 50%;
+}
  .questions-block__item-img img {
     max-width: 100%;
  }
