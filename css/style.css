@@ -819,15 +819,29 @@ input[type=number]::-webkit-outer-spin-button {
 
  /* ====== =====  страница о программе / ======== ======= */
 .header-program {
-    background: url(../img/header/header-program.jpg) 50% 0 / cover no-repeat;
-    height: 445px;
+    min-height: 445px;
     padding-top: 145px;
+}
+.header-gospod {
+    background: url(../img/header/header-program.jpg) 50% 0 / cover no-repeat;
+}
+.header-program-lgot {
+    background: url(../img/header/header-lgot.jpg) 50% 50% / cover no-repeat;
+}
+.header-program-subsidy {
+    background: url(../img/header/header-subsidia.jpg) 50% 50% / cover no-repeat;
+}
+.header-program-semya {
+    background: url(../img/header/header-semya.jpg) 50% 50% / cover no-repeat;
+}
+.header-program-migrant {
+    background: url(../img/header/header-migrant.jpg) 50% 50% / cover no-repeat;
 }
 .header-title-h1 {
     font-family: 'Intro' ;
     font-weight: 400;
     font-size: 50px;
-    line-height: 50px;
+    line-height: 100%;
     letter-spacing: -0.2px;
     color: #000000;
     padding: 0;
@@ -842,7 +856,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 20px;
     line-height: 24px;
     color: #000000; 
-    max-width: 552px;   
+    max-width: 634px;   
     margin-bottom: 64px !important;
 }
 
