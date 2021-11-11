@@ -766,6 +766,20 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 17px 37px 14px;
     margin: 0 20px 0 0;
     font-weight: 400;
+    
+    -webkit-border-radius: 31.8449px;
+    -moz-border-radius: 31.8449px;
+    -ms-border-radius: 31.8449px;
+    -o-border-radius: 31.8449px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.header-btn-2m:hover {
+    /* background: #ffdc2a; */
+    color: #001731;
 }
 /* ================ benefits ===================== */
 .benefits {
