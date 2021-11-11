@@ -11,6 +11,17 @@
 	font-weight: 400;
 	font-style: normal;
 }
+
+@font-face {
+    font-family: 'Intro';
+    src: url('../font/Intro-900/IntroDemo-BlackCAPS.eot');
+    src: url('../font/Intro-900/IntroDemo-BlackCAPS.eot?#iefix') format('embedded-opentype'),
+        url('../font/Intro-900/IntroDemo-BlackCAPS.woff2') format('woff2'),
+        url('../font/Intro-900/IntroDemo-BlackCAPS.woff') format('woff'),
+        url('../font/Intro-900/IntroDemo-BlackCAPS.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
 @font-face {
     font-family: 'PF DinDisplay Pro';
     src: local('../font/PF-DinDisplay-Pro/PF Din Display Pro Thin'), local('../font/PF-DinDisplay-Pro/PF-Din-Display-Pro-Thin'),
@@ -149,7 +160,7 @@ body {
 h1 {
     display: inline-block;
     font-family: 'Intro';
-    font-weight: 400;
+    font-weight: 900;
     font-size: 60px;
     line-height: 100%;
     letter-spacing: -0.2px;
@@ -492,7 +503,6 @@ h1 {
     box-sizing: border-box;
     border-radius: 10px;
     outline: 0;
-    text-align: center;
     font-family: 'PF DinDisplay Pro';
     font-weight: normal;
     font-size: 25px;
@@ -540,7 +550,7 @@ h1 {
 .bid-sabmit-btn {
     display: block;
     margin: 60px auto 0;
-    padding: 16px 37px;
+    padding: 17px 84px;
     background: #FFD300;
     border-radius: 31.8449px;
     border: none;
@@ -606,7 +616,7 @@ input[type=number]::-webkit-outer-spin-button {
  }
  .questions-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 90px;
  }
@@ -621,7 +631,7 @@ input[type=number]::-webkit-outer-spin-button {
     align-items: center;
     width: 118px;
     height: 118px;
-    margin: 22px auto;
+    margin: 0 auto;
     background: #fff;
     border-radius: 50%;
 }
@@ -638,22 +648,22 @@ input[type=number]::-webkit-outer-spin-button {
     line-height: 120%;
     text-align: center;
     color: #000000;
+    margin: 18px 0 16px;
  }
  .questions-block__item-text a {
     font-family: 'Roboto';
     display: inline-block;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 120%;
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
-    margin: 24px 0 0 0;
     background: #FFF6CC;
     background: #FFD300;
     border: 1px solid #000000;
     border-radius: 25px;
-    padding: 8px 22px;
+    padding: 3px 18px;
     text-decoration: none;
     transition: 0.6s all;
  }
@@ -674,12 +684,13 @@ input[type=number]::-webkit-outer-spin-button {
  .header-2 {
      background: url(../img/header-2/bg-2f.jpg) 50% 0 / cover no-repeat;
      height: 445px;
-     padding-top: 145px;
+     padding-top: 150px;
  }
 .h1-str2 {
     padding: 0;
     background: none;
-    margin: 81px 0 9px;
+    margin: 69px 0 15px;
+    text-transform: uppercase;
 }   
 .header-2 h2 {
     font-family: 'Montserrat';
@@ -962,6 +973,16 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* ====== Медиа 1140px ====== */
 @media (max-width: 1140px) {
-
+    .header-2 {
+        background: url(../img/header-2/bg-2f.jpg) 39% 0 / cover no-repeat;
+    }
 }
 /* ====== Медиа 1140px /====== */
+
+/* ====== Медиа 768px ====== */
+@media (max-width: 768px) {
+    .header-2 {
+        background: url(../img/header-2/bg-2f.jpg) 0 0 / cover no-repeat;
+    }
+}
+/* ====== Медиа 768px /====== */
