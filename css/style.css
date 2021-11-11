@@ -298,7 +298,7 @@ h1 {
     -o-transition: all 0.5s;
 }
 .cartt-btn:hover {
-    background: #ffdc2a;
+    background: #FFE465;
     border: 1px solid transparent;
     color: #000000;
 }
@@ -593,7 +593,7 @@ h1 {
     -o-transition: all 0.5s;
 }
 .bid-sabmit-btn:hover {
-    background: #ffdc2a;
+    background: #FFE465;
 }
 
 .bid-input:focus ~ .bid-label,
@@ -755,7 +755,7 @@ input[type=number]::-webkit-outer-spin-button {
     -o-transition: all 0.5s;
 }
 .header-btn-2:hover {
-    background: #ffdc2a;
+    background: #FFE465;
 }
 .header-btn-active-2 {
     background: #FFD300;
@@ -1025,6 +1025,14 @@ input[type=number]::-webkit-outer-spin-button {
     background: #FFD300;
     border-radius: 31.8449px;
     margin-bottom: 25px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.othersm-block__item a:hover {
+    background: #FFE465;
 }
 
 /* =============== othersm  / =============== */
