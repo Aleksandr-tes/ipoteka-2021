@@ -296,7 +296,7 @@ h1 {
 }
 .cartt-btn:hover {
     background: #ffdc2a;
-    border: none;
+    border: 1px solid transparent;
 }
 .cartt-btn-active {
     background: #FFD300;
@@ -766,7 +766,7 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 17px 37px 14px;
     margin: 0 20px 0 0;
     font-weight: 400;
-    
+    border-radius: 31.8449px;
     -webkit-border-radius: 31.8449px;
     -moz-border-radius: 31.8449px;
     -ms-border-radius: 31.8449px;
@@ -985,6 +985,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
+    justify-content: center;
     margin-top: 100px;
 }
 .othersm-block__item {
