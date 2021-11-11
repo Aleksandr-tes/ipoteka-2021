@@ -22,6 +22,7 @@
     font-weight: 900;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'PF DinDisplay Pro';
     src: local('../font/PF-DinDisplay-Pro/PF Din Display Pro Thin'), local('../font/PF-DinDisplay-Pro/PF-Din-Display-Pro-Thin'),
@@ -482,7 +483,7 @@ h1 {
 
 /* ========== bid ========== */
 .bid {
-    padding: 120px 0 80px;
+    padding: 140px 0 80px;
 }
 .bid-block {
     display: flex;
@@ -549,7 +550,7 @@ h1 {
 
 .bid-sabmit-btn {
     display: block;
-    margin: 60px auto 0;
+    margin: 62px auto 0;
     padding: 17px 84px;
     background: #FFD300;
     border-radius: 31.8449px;
@@ -601,7 +602,7 @@ input[type=number]::-webkit-outer-spin-button {
 
  .questions {
     background: #FFD300;
-    padding: 50px 0 50px;
+    padding: 52px 0 40px;
  }
  
  .questions h2 {
@@ -609,16 +610,13 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 45px;
     line-height: 120%;
     text-align: center;
-    text-transform: uppercase;
-    /* padding: 200px 0 0px; */
     margin-top: 0 !important;
- 
- }
+  }
  .questions-block {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 90px;
+    margin-top: 100px;
  }
  .questions-block__item {
     padding: 0px;
@@ -677,7 +675,7 @@ input[type=number]::-webkit-outer-spin-button {
  /* ***************************** */
  .calculator {
     background: #EFF1F1;
-    height: 598px;
+    height: 557px;
     padding-top: 43px;
  }
  /* ====== ===== 2 страница  ======== ======= */
@@ -711,7 +709,7 @@ input[type=number]::-webkit-outer-spin-button {
     text-align: center;
     text-transform: uppercase;   
     color: #000000;
-    padding: 17px 37px 14px;
+    padding: 17px 37px 15px;
     margin: 0 20px 0 0;
     background: rgba(255, 255, 255, 0.85);
     border-radius: 31.8449px;
@@ -830,7 +828,7 @@ input[type=number]::-webkit-outer-spin-button {
 
  /* ====== =====  страница о программе / ======== ======= */
 .header-program {
-    min-height: 445px;
+    min-height: 455px;
     padding-top: 145px;
 }
 .header-gospod {
@@ -850,7 +848,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .header-title-h1 {
     font-family: 'Intro' ;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 50px;
     line-height: 100%;
     letter-spacing: -0.2px;
@@ -868,7 +866,7 @@ input[type=number]::-webkit-outer-spin-button {
     line-height: 120%;
     color: #000000; 
     max-width: 634px;   
-    margin-bottom: 64px !important;
+    margin-bottom: 65px !important;
 }
 
 .header-yellow {
@@ -929,13 +927,13 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* =============== othersm  =============== */
 .othersm {
-    padding: 80px 0 120px;
+    padding: 80px 0 129px;
 }
 .othersm-block {
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
-    margin-top: 98px;
+    margin-top: 100px;
 }
 .othersm-block__item {
     width: 274px; 
@@ -963,7 +961,7 @@ input[type=number]::-webkit-outer-spin-button {
     text-align: center;
     color: #000000;
     min-width: 170px;
-    padding: 9px 23px 13px;
+    padding: 9px 0 10px;
     background: #FFD300;
     border-radius: 31.8449px;
     margin-bottom: 25px;
