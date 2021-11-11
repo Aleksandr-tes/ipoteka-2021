@@ -244,6 +244,8 @@ h1 {
 .cartt__block {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 47px;
     width: 575px;
 }
 /* .cartt__block-item {
@@ -261,10 +263,12 @@ h1 {
     font-size: 24px;
     line-height: 120%;
     color: #424548;
-    margin-bottom: 47px;
+    /* margin-bottom: 47px; */
 }
 .cartt__grup {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px 32px;
     margin-bottom: 40px;
 }
 .cartt-btn {
@@ -276,8 +280,7 @@ h1 {
     font-size: 18px;
     line-height: 120%;
     text-align: center;
-    color: #000000;
-    margin-right: 32px;
+    color: #A3A3A3;
     background: #FFFFFF;
     border: 1px solid #A3A3A3;
     box-sizing: border-box;
@@ -297,10 +300,12 @@ h1 {
 .cartt-btn:hover {
     background: #ffdc2a;
     border: 1px solid transparent;
+    color: #000000;
 }
 .cartt-btn-active {
     background: #FFD300;
     border: #FFD300;
+    color: #000000;
 }
 
 /* ========== cart / ========== */
